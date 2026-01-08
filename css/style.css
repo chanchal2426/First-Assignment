@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 346px;
+}
+
+.navigation-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin: 34px 0px;
+    justify-content: flex-start;
+}
+
+.navigation-bar ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    opacity: 90%;
+}
+
+.logo {
+    margin-left: 120px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.navigation-bar .btn {
+    margin-right: 120px;
+    padding: 12px 16px;
+    width: 164px;
+    height: 44px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navigation-bar .btn:hover {
+    background-color: #28a75a;
+}
+
+.hero_section {
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.content {
+    padding: 120px 0px;
+    width: 770px;
+    margin: auto;
+}
+
+.early {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    background: #fff;
+    width: 229px;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-text h1 span {
+    color: #30B868;
+}
+
+.hero-text p {
+    margin-bottom: 32px;
+}
+
+.button {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+}
+
+.button .btn {
+    background-color: #30B868;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.button .btn:hover {
+    background-color: #11331f;
+}
+
+.button .btn-2 {
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.note_section .text_section {
+    text-align: center;
+}
+
+.note_section .text_section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.note_section .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-items: stretch;
+
+}
+
+.container div {
+    width: 322px;
+    padding: 24px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+}
+
+.note_section .container .icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.note_section .container .icon img {
+    width: 32px;
+    height: 32px;
+    padding: 1.5px 2.49px;
+}
+
+.brain-section {
+    display: flex;
+    gap: 60px;
+    padding: 120px;
+}
+
+.brain-section .brain-image {
+    width: 600px;
+    height: 600px;
+}
+
+.brain-section .brain-text {
+    margin: 102px 0px;
+}
+
+.brain-section .brain-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #30B868;
+    line-height: 20px;
+    margin: 0px;
+}
+
+.brain-section .brain-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    line-height: 58px;
+    margin: 16px 0px;
+}
+
+.brain-section .brain-text p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.brain-section .brain-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.brain-section .brain-text ul li {
+    position: relative;
+    padding-left: 20px;
+    line-height: 2;
+
+}
+
+.brain-section .brain-text ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/CheckCircle.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
