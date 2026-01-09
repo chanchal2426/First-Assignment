@@ -69,16 +69,17 @@ body {
 
 .early {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 6px;
-    padding: 8px 12px;
-    border-radius: 1000px;
-    background: #fff;
-    color: #469165;
-    width: 229px;
-    height: 20px;
     margin: auto;
     margin-bottom: 16px;
+    width: 229px;
+    height: 36px;
+    color: #469165;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    gap: 6px;
+    padding: 12px 8px;
 }
 
 .hero-text {
