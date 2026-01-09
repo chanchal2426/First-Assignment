@@ -241,10 +241,14 @@ body {
     color: #627382;
 }
 
-.btn {
+.buttom-content .btn {
     background-color: #469165;
     padding: 12px 16px;
     color: white;
     font-weight: 600;
     font-size: 16px;
+}
+
+.buttom-content .btn:hover {
+    background-color: #11331f;
 }
