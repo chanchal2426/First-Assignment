@@ -61,6 +61,10 @@ body {
     padding: 120px 0px;
     width: 770px;
     margin: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .early {
@@ -196,33 +200,51 @@ body {
     margin: 16px 0px;
 }
 
-.brain-section .brain-text p {
+.brain-section .brain-text>p {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
     margin-bottom: 40px;
 }
 
-.brain-section .brain-text ul {
-    list-style: none;
-    padding-left: 0;
-}
-
 .brain-section .brain-text ul li {
-    position: relative;
-    padding-left: 20px;
-    line-height: 2;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.buttom-content {
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    max-width: 1360px;
+    max-height: 384px;
+    margin: auto;
 
 }
 
-.brain-section .brain-text ul li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 5px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../assets/CheckCircle.png");
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
+.buttom-content .buttom-content-text {
+    gap: 10px;
+}
+
+.buttom-content .buttom-content-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.buttom-content .buttom-content-text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+
+.btn {
+    background-color: #469165;
+    padding: 12px 16px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
 }
